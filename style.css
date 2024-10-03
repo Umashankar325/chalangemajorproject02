@@ -1,0 +1,335 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  /* width: 100vw; */
+  width: 100%;
+  height: 250vh;
+
+  /* height: 200vh; */
+  font-family: "Roboto", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+  overflow-x: hidden;
+}
+nav {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  background-color: rgba(0, 0, 0, 0.592);
+  height: 75px;
+  padding: 0 20px;
+  position: fixed;
+  left: 0;
+  top: 0;
+  /* position: absolute; */
+  z-index: 9;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  /* justify-content: center; */
+  align-items: center;
+}
+nav ul li {
+  padding: 15px;
+  color: white;
+}
+nav .left:first-child {
+  /* color: red; */
+}
+.pag1 {
+  margin: 0;
+  width: 100%;
+  height: 85vh;
+  background-color: black;
+  color: white;
+  top: 0;
+  position: relative;
+}
+.pag1 .container {
+  position: absolute;
+  left: 50%;
+  top: 45%;
+  transform: translate(-50%, -50%);
+  /* background-color: red; */
+  text-align: center;
+  width: 900px;
+  align-items: center;
+}
+.pag1 h1 {
+  font-size: 60px;
+}
+.pag1 p {
+  font-size: 20px;
+  width: 80%;
+  text-align: center;
+  margin: 20px auto;
+  font-weight: 500;
+  line-height: 30px;
+}
+.pag1 button {
+  height: 70px;
+  width: 200px;
+  font-size: 20px;
+  border-radius: 20px;
+  margin: 20px 0;
+  border: none;
+}
+.pag1 .first {
+  background-color: #3984ff;
+}
+.pag1 .last {
+  background-color: #000000;
+  color: white;
+  text-decoration: underline;
+}
+.pag2 {
+  height: 450px;
+  width: 100%;
+  /* background-color: red; */
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
+.pag2 .left {
+  height: 100%;
+  width: 30%;
+  /* background-color: green; */
+  background: url(https://fjord.dropboxstatic.com/warp/conversion/dropbox/warp/en-us/test/homepageredesign2024/hero/GettyImages-1423693942.png?id=f9f17692-869e-4163-aa7c-34ec8ed73409&width=828&output_type=webp);
+  background-position: center;
+}
+.pag2 .right {
+  width: 30%;
+  height: 100%;
+  /* background-color: yellow;
+   */
+  background: url(https://fjord.dropboxstatic.com/warp/conversion/dropbox/warp/en-us/test/homepageredesign2024/hero/GettyImages-1316864226.png?id=191875df-5b18-4faf-b351-289b6e850311&width=828&output_type=webp);
+  background-position: center;
+}
+
+/* */
+.center {
+  /* height: 100%; */
+  height: 550px;
+  width: 900px;
+  background: url(https://fjord.dropboxstatic.com/warp/conversion/dropbox/warp/en-us/test/homepageredesign2024/hero/all-files-desktop.png?id=75a3b2c3-59ab-45f6-bdaa-fa64bac618e7&width=828&output_type=webp);
+  background-position: center;
+  background-size: cover;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  /* top: 115vh; */
+  border-radius: 10px;
+  z-index: 2;
+  box-shadow: 1px 1px 5px black;
+}
+.phone {
+  height: 425px;!
+  width: 200px;
+  background: url(https://fjord.dropboxstatic.com/warp/conversion/dropbox/warp/en-us/test/homepageredesign2024/hero/all-files-mobile.png?id=53d5fd1b-a40c-4bea-9cb3-2c5dff1a0903&width=414&output_type=webp);
+  background-position: center;
+  background-size: cover;
+  position: absolute;
+  top: 50%;
+  left: 76%;
+  transform: translate(-50%, -50%);
+  /* top: 115vh; */
+  border-radius: 10px;
+  z-index: 3;
+  box-shadow: 1px 1px 5px black;
+}
+.pag3 {
+  height: 100vh;
+  width: 100vw;
+  background-color: #f7f5f2;
+  position: relative;
+}
+.pag3 .container {
+  width: 50%;
+  height: 50%;
+  /* background-color: red; */
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 40px;
+  font-weight: 600;
+}
+
+#yellow {
+  color: #9b6400;
+}
+#green {
+  color: #0f503c;
+}
+#broun {
+  color: #78286e;
+}
+#pink {
+  color: #cd2f7b;
+}
+.pag4,
+.pag6,.pag8 {
+  text-align: center;
+}
+.pag4 p,
+.pag6 p {
+  width: 700px;
+  margin: 0 auto;
+  color: #716b61;
+  font-weight: 400;
+}
+.pag4 .top,
+.pag6 .top,.pag8 .top {
+  background-color: #be4b0a;
+  color: white;
+  width: 200px;
+  height: 30px;
+  margin: auto;
+  margin-top: 100px;
+  padding-top: 7px;
+  border-radius: 20px;
+}
+.pag6 .top {
+  background-color: #78286e;
+}
+.pag8 .top {
+  background-color: #007891;
+}
+.pag4 h2,
+.pag6 h2,.pag8 h2 {
+  font-size: 30px;
+  margin: 20px 0;
+  /* color: red; */
+}
+.pag4 button,
+.pag6 button,.pag8 button {
+  margin: 20px;
+  padding: 10px;
+  height: 50px;
+  width: 225px;
+  border-radius: 10px;
+  font-weight: 500;
+  font-size: 15px;
+  background-color: #ffffff;
+  border: 2px solid #1e1919;
+  margin-bottom: 100px;
+}
+.fa-arrow-right {
+  margin-left: 20px;
+}
+.sbutton {
+  text-decoration: underline;
+  border: none;
+}
+
+.pag5,
+.pag7,
+.pag9 {
+  height: 100vh;
+  width: 100vw;
+  /* background-color: #be4b0a; */
+  position: relative;
+}
+.pag5 .img,
+.pag7 .img,
+.pag9 .img {
+  width: 500px;
+  height: 600px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: url(https://fjord.dropboxstatic.com/warp/conversion/dropbox/warp/en-us/test/homepageredesign2024/features/collaboration/Bottle-Solo.png?id=11101cef-b56e-40c5-a052-5119b060c4fe&output_type=webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.pag7 .img {
+  width: 500px;
+  height: 600px;
+  position: absolute;
+  top: 50%;
+  left: 70%;
+  transform: translate(-50%, -50%);
+  background: url(https://fjord.dropboxstatic.com/warp/conversion/dropbox/warp/en-us/test/homepageredesign2024/features/docsend/docsend-feature-photo.png?id=16ad971c-bbd8-4c11-a10d-7b794636ac79&output_type=webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.pag7 .screen {
+  width: 700px;
+  height: 430px;
+  position: absolute;
+  top: 50%;
+  left:35%;
+  transform: translate(-50%, -50%);
+  background: url(https://fjord.dropboxstatic.com/warp/conversion/dropbox/warp/en-us/test/homepageredesign2024/features/docsend/user-interface/png/docsend-document-analytics-ui-2048x1280.png?id=fdbeef3f-e301-44e7-91f8-0d0dded30c3f&width=1920&output_type=webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-shadow: 1px 1px 5px black;
+  border-radius: 10px;
+}
+.pag9 .img {
+  width: 500px;
+  height: 600px;
+  position: absolute;
+  top: 50%;
+  left: 60%;
+  transform: translate(-50%, -50%);
+  background: url(https://fjord.dropboxstatic.com/warp/conversion/dropbox/warp/en-us/test/homepageredesign2024/features/replay/The_Luupe_Genya_Oneall.jpg?id=e2669bcf-402f-4d94-bde1-1671ff42b8e7&width=1920&output_type=webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.pag9 .screen {
+  width: 600px;
+  height: 400px;
+  position: absolute;
+  top: 50%;
+  left:30%;
+  transform: translate(-50%, -50%);
+  background: url(https://fjord.dropboxstatic.com/warp/conversion/dropbox/warp/en-us/test/homepageredesign2024/features/replay/user-interface/png/replay-hero-ui-2048x1280.png?id=e8f8a500-5931-4bd6-a32b-fce48813fa97&width=1920&output_type=webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-shadow: 1px 1px 5px black;
+  border-radius: 10px;
+}
+
+.pag10{
+  width: 100vw;
+  height: 98vh;
+  background-color: black;
+  position: relative;
+}
+.pag10 .listcontainer{
+  height: 65%;
+  width: 70%;
+
+  position: absolute;
+  top: 45%;
+  left: 45%;
+  transform: translate(-50%,-50%);
+  display: flex;
+  justify-content: space-evenly;
+  color: white;
+  font-weight: 400;
+}
+.pag10 .listcontainer ul{
+  list-style: none;
+}
+.pag10 .listcontainer li:first-child{
+  /* color: blue; */
+  font-weight: 900;
+}
+.pag10 .listcontainer li{
+line-height: 40px;
+}
