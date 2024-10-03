@@ -39,9 +39,7 @@ nav ul li {
   padding: 15px;
   color: white;
 }
-nav .left:first-child {
-  /* color: red; */
-}
+
 .pag1 {
   margin: 0;
   width: 100%;
@@ -130,7 +128,7 @@ nav .left:first-child {
   box-shadow: 1px 1px 5px black;
 }
 .phone {
-  height: 425px;!
+  height: 425px;
   width: 200px;
   background: url(https://fjord.dropboxstatic.com/warp/conversion/dropbox/warp/en-us/test/homepageredesign2024/hero/all-files-mobile.png?id=53d5fd1b-a40c-4bea-9cb3-2c5dff1a0903&width=414&output_type=webp);
   background-position: center;
